@@ -1,8 +1,8 @@
 package boardgame;
 
 public class Position {
-	public Integer row;
-	public Integer column;
+	private Integer row;
+	private Integer column;
 	
 	public Position(Integer row, Integer column) {
 		super();
