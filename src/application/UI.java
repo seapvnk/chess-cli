@@ -38,6 +38,7 @@ public class UI {
 		System.out.println("  a b c d e f g h");
 	}
 	
+	@SuppressWarnings("unused")
 	private static String colorString(String str, String color) {
 		return color + str + ANSI_RESET;
 	}
